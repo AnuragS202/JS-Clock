@@ -9,8 +9,6 @@ body {
   align-items: center;
   background: #282828;
   display: flex;
-  /* grid: 2rem;
-    grid-template-columns: 200px; */
   min-height: 100vh;
   justify-content: center;
   padding: 1rem;
@@ -115,20 +113,20 @@ body {
   height: 150px;
   background: rgb(248, 233, 15);
   z-index: 12;
-  border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0; 
 }
 
 
 
-.clock:nth-child(1){
+/* .clock:nth-child(1){
   filter: hue-rotate(270deg);
 }
 .clock:nth-child(2){
   filter: hue-rotate(110deg);
-}
+} */
 
 .clock{
-  animation: glow 1s linear infinite;
+  animation: glow 2s linear infinite;
 }
 
 @keyframes glow {
